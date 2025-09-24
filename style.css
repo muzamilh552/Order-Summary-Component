@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(225deg, 100%, 94%) url("images/pattern-background-desktop.svg") no-repeat right;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Red Hat Display", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+
+    padding-bottom: 50px;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    min-width: 20rem;
+    max-width: 30rem;
+    max-width: 1110px;
+
+}
+
+.image {
+    width: 340px;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+
+.line1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(156, 154, 154);
+    font-size: 14px;
+    padding-bottom: 27px;
+    padding: 0 20px;
+}
+
+.price {
+    color: rgb(156, 154, 154);
+    font-size: 14px;
+}
+
+.plan {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.plan p {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #f8f9fe;
+    margin: 0 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.iconImage {
+    width: 37px;
+    height: 37px;
+}
+
+a {
+
+    font-size: 13px;
+    padding-top: 22px;
+
+}
+
+a:hover {
+    color: lightblue;
+
+}
+
+.Proceed-btn {
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    width: 220px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.Proceed-btn:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.Cancel-btn {
+    background-color: white;
+    color: rgb(156, 154, 154);
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.Cancel-btn:hover {
+    color: black;
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
